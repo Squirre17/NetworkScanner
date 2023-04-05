@@ -12,6 +12,9 @@ Experiment requirements: Submit an experimental report (see attachment); submit 
 # IMPL
 
 `target` is a network target for single IP and multi ports.
+
 `target manager` manage several targets which under same subnet.
+
 use TCP connect to test whether given port open(port in above the TCP layer).
+
 use multithread to accelerate scan rate and preserve their results. 
